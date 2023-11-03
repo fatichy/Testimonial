@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flash-msg.success{
+    color: green;
+    background: rgba(127, 237, 127, 0.308);
+    padding: .5rem;
+    border: green 1px solid;
+}
+
+.flash-msg.error{
+    color: red;
+    background: rgba(237, 127, 127, 0.308);
+    padding: .5rem;
+    border: red 1px solid;
+}
+
+.error-message{
+    color: red;
+    font-size: .8rem;
+    margin: .5rem 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    background: rgb(227, 226, 226);
+}
+
+.testimonial-form{
+    padding: 2rem;
+    min-width: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial-form label{
+    margin-bottom: .5rem;
+}
+
+.testimonial-form input, .testimonial-form textarea, .testimonial-form select{
+    width: 100%;
+    min-height: 30px;
+    margin-top: 5px;
+    padding: .5rem;
+}
+
+.testimonial-form input[type=submit]{
+    cursor: pointer;
+    transition: all .3s;
+    background: none;
+    border: 2px solid orange;
+    outline: none;
+    color: orange;
+}
+
+.testimonial-form input[type=submit]:hover{
+    background: orange;
+    color: white;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    padding: 2rem 1rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.tesmonial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-tracks: center;
+}
+
+.tesmonial-container img{   
+    width: 100px;
+    border-radius: 50%;
+}
+
+table {
+    background-color: white;
+}
+
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table td {
+    padding: .5rem;
+}
+
+table .action-btns {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+table img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+}
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: .2rem .5rem;
+    border-radius: 5px;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
+}

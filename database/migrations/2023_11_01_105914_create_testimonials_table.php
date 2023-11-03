@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('titre');
             $table->text('message');
-            $table->string('image');
-            $table->string('status');
+            $table->string('image')->nullable();
+            $table->string('status')->default('W'); // W waiting for approval, A approved, R rejected
             $table->timestamps();
         });
     }
